@@ -4,9 +4,9 @@ name := "scalameter"
 
 organization := "com.github.axel22"
 
-version := "0.5-SNAPSHOT"
+version := "0.5-M1"
 
-scalaVersion := "2.11.0-SNAPSHOT"
+scalaVersion := "2.11.0-M7"
 
 scalacOptions ++= Seq("-deprecation", "-unchecked")
 
@@ -17,9 +17,9 @@ libraryDependencies ++= List(
   "jfree" % "jfreechart" % "1.0.12",
   "org.apache.commons" % "commons-math3" % "3.0",
   "org.scala-tools.testing" % "test-interface" % "0.5",
-  "org.scala-lang" % "scala-reflect" % "2.11.0-SNAPSHOT",
-  "org.scala-lang" % "scala-parser-combinators" % "2.11.0-SNAPSHOT",
-  "org.scala-lang" % "scala-xml" % "2.11.0-SNAPSHOT"
+  "org.scala-lang" % "scala-reflect" % "2.11.0-M7",
+  "org.scala-lang" % "scala-parser-combinators" % "2.11.0-M4",
+  "org.scala-lang" % "scala-xml" % "2.11.0-M4"
 )
 
 
@@ -62,3 +62,7 @@ pomExtra := (
   </developers>)
 
 
+
+useGpg := true
+
+usePgpKeyHex("23079096")
