@@ -1,3 +1,4 @@
+addSbtPlugin("com.typesafe.sbt" % "sbt-pgp" % "0.8.1")
 
 // Vlad: the plugin interferes with the credentials file
 // addSbtPlugin("com.typesafe.sbt" % "sbt-pgp" % "0.7")

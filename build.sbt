@@ -61,8 +61,6 @@ pomExtra := (
     </developer>
   </developers>)
 
-
-
 useGpg := true
 
 usePgpKeyHex("23079096")
